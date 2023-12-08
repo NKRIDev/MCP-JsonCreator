@@ -1,9 +1,6 @@
-package fr.nkri.app.managers.models.enums;
+package fr.nkri.app.managers.models.items.enums;
 
-import fr.nkri.app.managers.models.TransformData;
-
-import java.util.ArrayList;
-import java.util.List;
+import fr.nkri.app.managers.models.items.TransformData;
 
 public enum ItemDisplay {
 
@@ -15,6 +12,7 @@ public enum ItemDisplay {
 
     ITEM_SHOVEL(new TransformData(new float[]{0.0F, 90.0F, -35.0F}, new float[]{0.0F, 1.25F, -3.5F}, new float[]{0.85F, 0.85F, 0.85F}),
             new TransformData(new float[]{0.0F, -135.0F, 25.0F}, new float[]{0.0F, 4.0F, 2.0F}, new float[]{1.7F, 1.7F, 1.7F})),
+
     ITEM_HOE(new TransformData(new float[]{0.0F, 90.0F, -35.0F}, new float[]{0.0F, 1.25F, -3.5F}, new float[]{0.85F, 0.85F, 0.85F}),
             new TransformData(new float[]{0.0F, -135.0F, 25.0F}, new float[]{0.0F, 4.0F, 2.0F}, new float[]{1.7F, 1.7F, 1.7F})),
 

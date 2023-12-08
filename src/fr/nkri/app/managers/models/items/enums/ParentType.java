@@ -1,4 +1,4 @@
-package fr.nkri.app.managers.models.enums;
+package fr.nkri.app.managers.models.items.enums;
 
 public enum ParentType {
 

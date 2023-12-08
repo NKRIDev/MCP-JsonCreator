@@ -2,9 +2,9 @@ package fr.nkri.app;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import fr.nkri.app.managers.models.enums.ItemDisplay;
-import fr.nkri.app.managers.models.ItemModel;
-import fr.nkri.app.managers.models.enums.ParentType;
+import fr.nkri.app.managers.models.items.enums.ItemDisplay;
+import fr.nkri.app.managers.models.items.ItemModel;
+import fr.nkri.app.managers.models.items.enums.ParentType;
 import javafx.application.Application;
 import javafx.stage.Stage;
 

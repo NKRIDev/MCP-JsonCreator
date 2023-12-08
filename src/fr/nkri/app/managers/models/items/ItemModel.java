@@ -1,9 +1,9 @@
-package fr.nkri.app.managers.models;
+package fr.nkri.app.managers.models.items;
 
 import com.google.gson.annotations.Expose;
 import fr.nkri.app.JsonCreatorApp;
-import fr.nkri.app.managers.models.enums.ItemDisplay;
-import fr.nkri.app.managers.models.enums.ParentType;
+import fr.nkri.app.managers.models.items.enums.ItemDisplay;
+import fr.nkri.app.managers.models.items.enums.ParentType;
 
 import java.util.HashMap;
 import java.util.Map;
