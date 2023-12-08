@@ -1,6 +1,6 @@
 package fr.nkri.app.managers.models.items.enums;
 
-import fr.nkri.app.managers.models.TransformData;
+import fr.nkri.app.managers.models.items.TransformData;
 
 public enum ItemDisplay {
 

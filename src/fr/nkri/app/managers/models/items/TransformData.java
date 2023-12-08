@@ -1,4 +1,4 @@
-package fr.nkri.app.managers.models;
+package fr.nkri.app.managers.models.items;
 
 import com.google.gson.annotations.Expose;
 
