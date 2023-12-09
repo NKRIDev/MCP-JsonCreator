@@ -1,7 +1,7 @@
 package fr.nkri.app.managers.models.items;
 
 import com.google.gson.annotations.Expose;
-import fr.nkri.app.JsonCreatorApp;
+import fr.nkri.app.JsonCreatorMain;
 import fr.nkri.app.managers.models.items.enums.ItemDisplay;
 import fr.nkri.app.managers.models.items.enums.ParentType;
 
@@ -72,6 +72,6 @@ public class ItemModel {
     }
 
     public String toJson(){
-        return JsonCreatorApp.serialize(this);
+        return JsonCreatorMain.serialize(this);
     }
 }
