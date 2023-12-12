@@ -1,0 +1,50 @@
+.root {
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.main-pane {
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-background-color: #f8f8f8;
+}
+
+.label {
+    -fx-font-size: 28px;
+    -fx-text-fill: #333333;
+}
+
+.text-field {
+    -fx-prompt-text-fill: #888888;
+    -fx-font-size: 16px;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-border-color: #dddddd;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-padding: 8;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-padding: 10 20;
+    -fx-text-fill: white;
+    -fx-background-color: #555555;
+    -fx-background-radius: 25;
+    -fx-border-color: #444444;
+    -fx-border-radius: 25;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+    -fx-transition: all 10s;
+}
+
+
+.button:hover {
+    -fx-background-color: #444444;
+}
+
+.button:pressed {
+    -fx-background-color: #333333;
+    -fx-translate-y: 2px;
+}

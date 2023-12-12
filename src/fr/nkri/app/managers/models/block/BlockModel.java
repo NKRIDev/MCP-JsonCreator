@@ -35,4 +35,8 @@ public class BlockModel {
     public String toJson(){
         return JsonCreatorApp.serialize(this);
     }
+
+    public String getBlockName() {
+        return blockName;
+    }
 }

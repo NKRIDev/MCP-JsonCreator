@@ -14,6 +14,7 @@ public class BlockStateModel {
     private Map<String, Model> variants;
 
     public BlockStateModel(final String blockStateName){
+        this.blockStateName = blockStateName;
         final Model model = new Model(blockStateName);
         this.variants = new HashMap<>();
 
@@ -35,5 +36,9 @@ public class BlockStateModel {
 
     public String toJson(){
         return JsonCreatorApp.serialize(this);
+    }
+
+    public String getBlockStateName() {
+        return blockStateName;
     }
 }
