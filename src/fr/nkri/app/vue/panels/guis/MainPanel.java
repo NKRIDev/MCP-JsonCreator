@@ -68,6 +68,7 @@ public class MainPanel extends Panel {
             sendAlert("Erreur", "Veuillez entrer le nom de votre item", Alert.AlertType.ERROR);
             return;
         }
+
     }
 
     private void clickButtonItem(){
@@ -108,7 +109,7 @@ public class MainPanel extends Panel {
         alert.show();
     }
 
-    public File getDirectoryPath() {
+    private File getDirectoryPath() {
         final DirectoryChooser directoryChooser = new DirectoryChooser();
         directoryChooser.setTitle("Choisissez un dossier");
         final File selectedDirectory = directoryChooser.showDialog(getPanelManager().getStage());
