@@ -1,6 +1,7 @@
 package fr.nkri.app.managers.models.block;
 
 import com.google.gson.annotations.Expose;
+import fr.nkri.app.JsonCreatorApp;
 import fr.nkri.app.JsonCreatorMain;
 
 public class BlockModel {
@@ -32,6 +33,6 @@ public class BlockModel {
     }
 
     public String toJson(){
-        return JsonCreatorMain.serialize(this);
+        return JsonCreatorApp.serialize(this);
     }
 }

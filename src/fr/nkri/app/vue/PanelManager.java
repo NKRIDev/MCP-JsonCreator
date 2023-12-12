@@ -46,4 +46,8 @@ public class PanelManager {
 
         iPanel.init(this);
     }
+
+    public Stage getStage() {
+        return stage;
+    }
 }

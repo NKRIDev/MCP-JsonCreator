@@ -2,22 +2,15 @@ package fr.nkri.app;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import fr.nkri.app.managers.models.items.ItemModel;
 import javafx.application.Application;
 
 import javax.swing.*;
 
 public class JsonCreatorMain {
 
-    private static Gson GSON;
-
     public static void main(String[] args) {
-        if(hasJavaFX(args)){
-            GSON = getGsonBuilder().create();
-           // final ItemModel itemModel = new ItemModel("ruby_axe", ParentType.BUILTIN, ItemDisplay.ITEM_AXE);
-            //final String json = itemModel.toJson();
-
-            //System.out.println(json);
-        }
+        hasJavaFX(args);
     }
 
     private static boolean hasJavaFX(final String[] args){
@@ -30,17 +23,5 @@ public class JsonCreatorMain {
             return false;
         }
         return true;
-    }
-
-    private static GsonBuilder getGsonBuilder(){
-        return new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().excludeFieldsWithoutExposeAnnotation();
-    }
-
-    public static String serialize(final Object obj){
-        return getGson().toJson(obj);
-    }
-
-    public static Gson getGson() {
-        return GSON;
     }
 }

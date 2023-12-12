@@ -63,4 +63,8 @@ public abstract class Panel implements IMovable, IPanel, ITakePlace{
     public void setCenterV(Node node) {
         GridPane.setValignment(node, VPos.CENTER);
     }
+
+    public PanelManager getPanelManager() {
+        return panelManager;
+    }
 }

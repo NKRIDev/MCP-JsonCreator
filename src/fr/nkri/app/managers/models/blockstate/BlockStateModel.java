@@ -1,6 +1,7 @@
 package fr.nkri.app.managers.models.blockstate;
 
 import com.google.gson.annotations.Expose;
+import fr.nkri.app.JsonCreatorApp;
 import fr.nkri.app.JsonCreatorMain;
 import java.util.HashMap;
 import java.util.Map;
@@ -33,6 +34,6 @@ public class BlockStateModel {
     }
 
     public String toJson(){
-        return JsonCreatorMain.serialize(this);
+        return JsonCreatorApp.serialize(this);
     }
 }
